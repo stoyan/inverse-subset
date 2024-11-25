@@ -56,4 +56,5 @@ If you've just created a `-subset` with Glyphhanger in the same directory, it wi
 
 # Announcement
 
-See https://phpied.com
+For an announcement and more on Unicode ranges, including some test pages, see
+https://www.phpied.com/inverse-font-subsetting/
