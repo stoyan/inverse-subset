@@ -1,0 +1,31 @@
+{
+  "name": "inverse-subset",
+  "version": "1.0.0",
+  "description": "A CLI tool to generate inverse subset fonts using a complete font and a subset font.",
+  "main": "inverse-subset.js",
+  "bin": {
+    "inverse-subset": "./inverse-subset.js"
+  },
+  "scripts": {
+    "start": "node inverse-subset.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stoyan/inverse-subset.git"
+  },
+  "keywords": [
+    "font",
+    "subset",
+    "inverse",
+    "glyphhanger",
+    "fontkit",
+    "CLI"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "fontkit": "^2.0.4"
+  }
+}
