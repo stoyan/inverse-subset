@@ -17,13 +17,16 @@ https://github.com/zachleat/glyphhanger/
 # Install 
 
 ```
-npm i inverse-subset
+npm i -g inverse-subset
 ```
 
 # Help
 
 ```
-$ node inverse-subset.js -h
+$ which inverse-subset
+/usr/local/bin/inverse-subset
+
+$ node /usr/local/bin/inverse-subset -h
 Usage: inverse-subset [options]
 
 Generates an inverse subset font from a complete font and a subset font.
@@ -38,7 +41,7 @@ Options:
 
 # Example use
 ```
-$ node inverse-subset.js -c ../Oxanium.ttf -s ../subset/Oxanium-subset.woff2
+$ node /usr/local/bin/inverse-subset -c ../Oxanium.ttf -s ../subset/Oxanium-subset.woff2
 Creating the inverse subset...
 Running: glyphhanger --formats=woff2 --subset="../Oxanium.ttf" --whitelist=U+0,U+D,U+A0,U+A1,U+A2,U+A3,U+A4,U+A5,U+A6,U+A7,U+A8,U+A9,U+AA,U+AB,U+AC,U+AD,U+AE,U+AF,U+B0,U+B1,U+B2,U+B3,U+B4,U+B5,U+B6,U+B7,U+B8,U+B9,U+BA,U+BB,U+BC,U+BD,U+BE,U+BF,U+C0,U+C1,U+C2,U+C3,U+C4,U+C5,U+C6,U+C7,U+C8,U+C9,U+CA,U+CB,U+CC,U+CD,U+CE,U+CF,U+D0,U+D1,U+D2,U+D3,U+D4,U+D5,U+D6,U+D7,U+D8,U+D9,U+DA,U+DB,U+DC,U+DD,U+DE,U+DF,U+E0,U+E1,U+E2,U+E3,U+E4,U+E5,U+E6,U+E7,U+E8,U+E9,U+EA,U+EB,U+EC,U+ED,U+EE,U+EF,U+F0,U+F1,U+F2,U+F3,U+F4,U+F5,U+F6,U+F7,U+F8,U+F9,U+FA,U+FB,U+FC,U+FD,U+FE,U+FF,U+100,U+101,U+102,U+103,U+104,U+105,U+106,U+107,U+10C,U+10D,U+10E,U+10F,U+110,U+111,U+112,U+113,U+116,U+117,U+118,U+119,U+11A,U+11B,U+11E,U+11F,U+122,U+123,U+12A,U+12B,U+12E,U+12F,U+130,U+131,U+136,U+137,U+139,U+13A,U+13B,U+13C,U+13D,U+13E,U+141,U+142,U+143,U+144,U+145,U+146,U+147,U+148,U+14C,U+14D,U+150,U+151,U+152,U+153,U+154,U+155,U+156,U+157,U+158,U+159,U+15A,U+15B,U+15E,U+15F,U+160,U+161,U+162,U+163,U+164,U+165,U+16A,U+16B,U+16E,U+16F,U+170,U+171,U+172,U+173,U+178,U+179,U+17A,U+17B,U+17C,U+17D,U+17E,U+192,U+218,U+219,U+21A,U+21B,U+237,U+2C6,U+2C7,U+2C9,U+2D8,U+2D9,U+2DA,U+2DB,U+2DC,U+2DD,U+300,U+301,U+302,U+303,U+304,U+306,U+307,U+308,U+30A,U+30B,U+30C,U+326,U+327,U+328,U+3C0,U+1E9E,U+2013,U+2014,U+2018,U+2019,U+201A,U+201C,U+201D,U+201E,U+2020,U+2021,U+2022,U+2026,U+2030,U+2039,U+203A,U+2044,U+2070,U+2074,U+2080,U+2081,U+2082,U+2083,U+2084,U+20AC,U+20BA,U+20BD,U+2113,U+2122,U+2126,U+212E,U+2202,U+2206,U+220F,U+2211,U+2212,U+2215,U+2219,U+221A,U+221E,U+222B,U+2248,U+2260,U+2264,U+2265,U+25CA,U+F000,U+FB01,U+FB02
 Created: /Users/you/Documents/codez/Oxanium-inverse-subset.woff2
