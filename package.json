@@ -1,6 +1,6 @@
 {
   "name": "inverse-subset",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A CLI tool to generate inverse subset fonts using a complete font and a subset font.",
   "main": "inverse-subset.js",
   "bin": {
